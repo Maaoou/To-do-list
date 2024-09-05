@@ -2,3 +2,10 @@ dj-database-url==2.0.0
 Django==4.2.1
 python-decouple==3.8
 crispy-bootstrap5==0.7
+
+Create a .env file in the root directory of your project.
+Add the following line to your .env file:
+  
+  SECRET_KEY=your_secret_key
+  DEBUG = True
+  ALLOWED_HOSTS = *
